@@ -36,7 +36,7 @@ public class TextBall{
 
 		if(test1.equals(win1)&&lucky==6){
 			System.out.println(test1);
-			System.out.println("»¨ÁË"+2*count+"RMB");
+			System.out.println("花了"+2*count+"RMB");
 			break;
 		}else{
 			count++;
