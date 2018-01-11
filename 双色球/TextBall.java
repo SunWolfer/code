@@ -6,14 +6,14 @@ public class TextBall{
 		Random ball1 = new Random();
 		Random ball2 = new Random();
 
-		int[] win = new int[]{14,8,13/*,2,20,18*/};
-		int[] test = new int[3];
+		int[] win = new int[]{14,8,13,2,20,18};
+		int[] test = new int[6];
 		int count = 1;
 
 
         //挑选红球
         while(true){
-        	for(int i=0;i<3;i++) {
+        	for(int i=0;i<6;i++) {
         		int[] rednum = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33};//红球初始值
            		aa:
            		while(true) {
